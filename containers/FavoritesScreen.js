@@ -30,7 +30,8 @@ export default function FavoritesScreen({ userToken }) {
           return { productId, ...productInfo };
         })
       );
-      setFavorites(favoritesWithInfo);
+
+      setFavorites(favoritesWithInfo.reverse());
       setIsLoading(false);
     } catch (error) {
       console.log(error.message);
@@ -98,7 +99,7 @@ export default function FavoritesScreen({ userToken }) {
       ) : (
         <View style={styles.listContainer}>
           <FlatList
-            data={favorites.reverse()}
+            data={favorites}
             keyExtractor={(item) => item.productId}
             renderItem={renderProductItem}
           />
@@ -139,8 +140,6 @@ const styles = StyleSheet.create({
   itemName: {
     flexShrink: 1,
     fontSize: 16,
-  },
-  itemText: {
-    fontSize: 16,
+    fontWeight: "500",
   },
 });

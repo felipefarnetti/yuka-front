@@ -115,7 +115,9 @@ export default function ProductScreen({ userToken }) {
                 <Image
                   style={styles.img}
                   source={{
-                    uri: data.product?.image_front_url || "Non disponible",
+                    uri: data.product?.image_front_url
+                      ? data.product?.image_front_url
+                      : getNutriscoreImage,
                   }}
                 />
               </TouchableOpacity>
@@ -185,8 +187,8 @@ export default function ProductScreen({ userToken }) {
               <View style={styles.blocInfo}>
                 <Text style={{ fontSize: 16 }}>Sucre</Text>
                 <Text style={{ fontSize: 16 }}>
-                  {data.product?.nutriscore_data.sugars
-                    ? data.product?.nutriscore_data.sugars + "g"
+                  {data.product?.nutriments.sugars
+                    ? data.product?.nutriments.sugars + "g"
                     : "Non disponible"}
                 </Text>
               </View>
@@ -199,16 +201,16 @@ export default function ProductScreen({ userToken }) {
               <View style={styles.blocInfo}>
                 <Text style={{ fontSize: 16 }}>Fibres</Text>
                 <Text style={{ fontSize: 16 }}>
-                  {data.product?.nutriscore_data.fiber_value
-                    ? data.product?.nutriscore_data.fiber_value + "g"
+                  {data.product?.nutriments.fiber
+                    ? data.product?.nutriments.fiber + "g"
                     : "Non disponible"}
                 </Text>
               </View>
               <View style={styles.blocInfo}>
                 <Text style={{ fontSize: 16 }}>Protéines</Text>
                 <Text style={{ fontSize: 16 }}>
-                  {data.product?.nutriscore_data.proteins_value
-                    ? data.product?.nutriscore_data.proteins_value + "g"
+                  {data.product?.nutriments.proteins
+                    ? data.product?.nutriments.proteins + "g"
                     : "Not available"}
                 </Text>
               </View>
@@ -226,10 +228,23 @@ export default function ProductScreen({ userToken }) {
                   Allergènes
                 </Text>
               </View>
-              <View style={styles.blocInfo}>
-                <Text style={{ fontSize: 16 }}>
-                  {data.product?.allergens_imported || "Non disponible"}
-                </Text>
+              <View
+                style={{
+                  flexDirection: "row",
+                  marginVertical: 10,
+                  marginLeft: 10,
+                  marginRight: 10,
+                }}
+              >
+                {Object.entries(data.product?.allergens || "Not available").map(
+                  ([key, value]) => (
+                    <View key={key}>
+                      <Text>
+                        {value.startsWith("en:") ? value.substring(3) : value}
+                      </Text>
+                    </View>
+                  )
+                )}
               </View>
 
               <View style={styles.blocInfo}>
