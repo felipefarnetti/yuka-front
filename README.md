@@ -8,8 +8,12 @@
 
 
 
+<p>
+<img src="https://user-images.githubusercontent.com/128170725/242293020-da48d75a-266c-4ee1-9fbb-07bb8754b681.jpeg" align="center" height="320" width="150"/>
+</p>
 
-<p align="center">![My Remote Image](https://user-images.githubusercontent.com/128170725/242293020-da48d75a-266c-4ee1-9fbb-07bb8754b681.jpeg)
+
+![My Remote Image](https://user-images.githubusercontent.com/128170725/242293020-da48d75a-266c-4ee1-9fbb-07bb8754b681.jpeg)
 ![My Remote Image](https://user-images.githubusercontent.com/128170725/242293028-639f4822-60c2-40b0-8756-c3c32d702964.jpeg)
 ![My Remote Image](https://user-images.githubusercontent.com/128170725/242293030-66b3deac-323b-4d79-abc1-b08d490c9b8c.jpeg)
 ![My Remote Image](https://user-images.githubusercontent.com/128170725/242293032-89f73cc4-b959-48c3-865f-9042f08e2289.jpeg)
