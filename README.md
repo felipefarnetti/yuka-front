@@ -6,17 +6,17 @@
 ### This mobile app Yuka replica works on ios and Android systems - how it works:
 #### After opening the application you arrive on the splash screen and sliding to the left you arrive at the login screen and if you have no account you can go to the signup page. Once connected, you have 3 bottom tabs - Favorites, Camera and My account.
 
-https://user-images.githubusercontent.com/128170725/242290768-fe3d78c6-e05d-4156-a9ed-4c1a95ad003c.jpeg
 
 
 
-
-
-
-
-
-
-
+![alt text]https://user-images.githubusercontent.com/128170725/242290768-fe3d78c6-e05d-4156-a9ed-4c1a95ad003c.jpeg
+![alt text]https://user-images.githubusercontent.com/128170725/242290791-e2faf771-a6f2-42d6-b033-071e09f9499c.jpeg
+![alt text]https://user-images.githubusercontent.com/128170725/242290807-fa2871e3-e62a-451f-b0e4-7c285ed896da.jpeg
+![alt text]https://user-images.githubusercontent.com/128170725/242290823-e8adb659-693f-46bd-ba8f-2cba88e35e8c.jpeg
+![alt text]https://user-images.githubusercontent.com/128170725/242290834-73340791-918a-4729-8d28-4c9cfdcde4f7.jpeg
+![alt text]https://user-images.githubusercontent.com/128170725/242290850-30fc51a4-e89e-4478-8e92-0126f3174249.jpeg
+![alt text]https://user-images.githubusercontent.com/128170725/242290860-69865bea-a65d-48f9-8751-271ef042d556.jpeg
+![alt text]https://user-images.githubusercontent.com/128170725/242290885-e267bc9b-0c53-4afd-ae7f-8871720cdb1b.jpeg
 
 
 1. Elle utilise pour les requetes de produits l'API:
