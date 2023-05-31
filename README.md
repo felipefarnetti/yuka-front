@@ -9,14 +9,16 @@
 
 
 
-![My Remote Image](https://user-images.githubusercontent.com/128170725/242290768-fe3d78c6-e05d-4156-a9ed-4c1a95ad003c.jpeg)
-![My Remote Image](https://user-images.githubusercontent.com/128170725/242290791-e2faf771-a6f2-42d6-b033-071e09f9499c.jpeg)
-![My Remote Image](https://user-images.githubusercontent.com/128170725/242290807-fa2871e3-e62a-451f-b0e4-7c285ed896da.jpeg)
-![My Remote Image](https://user-images.githubusercontent.com/128170725/242290823-e8adb659-693f-46bd-ba8f-2cba88e35e8c.jpeg)
-![My Remote Image](https://user-images.githubusercontent.com/128170725/242290834-73340791-918a-4729-8d28-4c9cfdcde4f7.jpeg)
-![My Remote Image](https://user-images.githubusercontent.com/128170725/242290850-30fc51a4-e89e-4478-8e92-0126f3174249.jpeg)
-![My Remote Image](https://user-images.githubusercontent.com/128170725/242290860-69865bea-a65d-48f9-8751-271ef042d556.jpeg)
-![My Remote Image](https://user-images.githubusercontent.com/128170725/242290885-e267bc9b-0c53-4afd-ae7f-8871720cdb1b.jpeg)
+![My Remote Image](https://user-images.githubusercontent.com/128170725/242293020-da48d75a-266c-4ee1-9fbb-07bb8754b681.jpeg)
+![My Remote Image](https://user-images.githubusercontent.com/128170725/242293028-639f4822-60c2-40b0-8756-c3c32d702964.jpeg)
+![My Remote Image](https://user-images.githubusercontent.com/128170725/242293030-66b3deac-323b-4d79-abc1-b08d490c9b8c.jpeg)
+![My Remote Image](https://user-images.githubusercontent.com/128170725/242293032-89f73cc4-b959-48c3-865f-9042f08e2289.jpeg)
+![My Remote Image](https://user-images.githubusercontent.com/128170725/242293036-65c0bd26-7893-449e-b9c4-9e1f862241fe.jpeg)
+![My Remote Image](https://user-images.githubusercontent.com/128170725/242293041-8bca6b3d-3cce-4b3a-80cd-1ef47d1650a6.jpeg)
+![My Remote Image](https://user-images.githubusercontent.com/128170725/242293044-ba2d624a-7105-4e68-b4c5-f4e42bf70c9a.jpeg)
+![My Remote Image](https://user-images.githubusercontent.com/128170725/242293048-f18530e8-292e-4846-b7cb-52f71c8a6ca3.jpeg)
+
+
 
 
 1. Elle utilise pour les requetes de produits l'API:
