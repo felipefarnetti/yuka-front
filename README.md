@@ -8,9 +8,9 @@
 
 
 
-<p>
-<img src="https://user-images.githubusercontent.com/128170725/242293020-da48d75a-266c-4ee1-9fbb-07bb8754b681.jpeg" align="center" height="400" width="200"/>
-  <img src="https://user-images.githubusercontent.com/128170725/242293028-639f4822-60c2-40b0-8756-c3c32d702964.jpeg" align="center" height="400" width="200"/>
+<p align="justify">
+<img src="https://user-images.githubusercontent.com/128170725/242293020-da48d75a-266c-4ee1-9fbb-07bb8754b681.jpeg" height="400" width="200"/>
+  <img src="https://user-images.githubusercontent.com/128170725/242293028-639f4822-60c2-40b0-8756-c3c32d702964.jpeg"  height="400" width="200"/>
   <img src="https://user-images.githubusercontent.com/128170725/242293030-66b3deac-323b-4d79-abc1-b08d490c9b8c.jpeg" align="center" height="400" width="200"/>
   <img src="https://user-images.githubusercontent.com/128170725/242293032-89f73cc4-b959-48c3-865f-9042f08e2289.jpeg" align="center" height="400" width="200"/>
   <img src="https://user-images.githubusercontent.com/128170725/242293036-65c0bd26-7893-449e-b9c4-9e1f862241fe.jpeg" align="center" height="400" width="200"/>
