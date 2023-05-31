@@ -35,7 +35,6 @@ export default function SignInScreen({ setToken }) {
         if (response.data.token) {
           const token = response.data.token;
           setToken(token);
-          setId(response.data.id);
           // console.log(token);
           setIsLoading(false);
           alert("Vous êtes connecté");

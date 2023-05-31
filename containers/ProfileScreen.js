@@ -9,7 +9,7 @@ import {
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios from "axios";
 
-export default function ProfileScreen({ userToken, userId, setToken, setId }) {
+export default function ProfileScreen({ userToken, setToken }) {
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -79,7 +79,6 @@ export default function ProfileScreen({ userToken, userId, setToken, setId }) {
       if (response.status === 200) {
         setToken(null);
         AsyncStorage.removeItem("userToken");
-        AsyncStorage.removeItem("userId");
       } else {
         const errorMessage =
           response.data.message || "Error deleting user account";

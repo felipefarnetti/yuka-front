@@ -71,7 +71,6 @@ export default function FavoritesScreen({ userToken }) {
             {"\n"}
             {item.brands}
           </Text>
-
           {/* <Text style={styles.itemText}>{item.productId}</Text> */}
         </View>
       </TouchableOpacity>
@@ -91,7 +90,11 @@ export default function FavoritesScreen({ userToken }) {
   return (
     <View style={styles.container}>
       {isLoading ? (
-        <ActivityIndicator size="large" color="gray" />
+        <View>
+          <Text>
+            Chargement... <ActivityIndicator size="large" color="gray" />
+          </Text>
+        </View>
       ) : (
         <View style={styles.listContainer}>
           <FlatList

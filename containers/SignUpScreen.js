@@ -14,7 +14,7 @@ import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view
 import Constants from "expo-constants";
 import logo from "../assets/yukasplash.png";
 
-export default function SignUpScreen({ setToken, setId }) {
+export default function SignUpScreen({ setToken }) {
   const navigation = useNavigation();
   const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
@@ -36,8 +36,6 @@ export default function SignUpScreen({ setToken, setId }) {
         if (response.data.token) {
           const token = response.data.token;
           setToken(token);
-          setId(response.data.id);
-
           setIsLoading(false);
           alert("Votre compte a été crée");
         } else {

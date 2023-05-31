@@ -23,7 +23,6 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [userToken, setUserToken] = useState(null);
-  const [userId, setUserId] = useState(null);
 
   const setToken = async (token) => {
     if (token) {
@@ -35,22 +34,10 @@ export default function App() {
     setUserToken(token);
   };
 
-  const setId = async (id) => {
-    if (id) {
-      await AsyncStorage.setItem("UserId", id);
-    } else {
-      await AsyncStorage.removeItem("userId");
-    }
-    setUserId(id);
-  };
-
   useEffect(() => {
     const bootstrapAsync = async () => {
       const userToken = await AsyncStorage.getItem("userToken");
-      const userId = await AsyncStorage.getItem("userId");
-
       setUserToken(userToken);
-      setUserId(userId);
       setIsLoading(false);
     };
 
@@ -78,7 +65,7 @@ export default function App() {
                 headerStyle: { backgroundColor: "#7ab387" },
               }}
             >
-              {() => <SignInScreen setToken={setToken} setId={setId} />}
+              {() => <SignInScreen setToken={setToken} />}
             </Stack.Screen>
             <Stack.Screen
               name="SignUpScreen"
@@ -87,7 +74,7 @@ export default function App() {
                 headerStyle: { backgroundColor: "#7ab387" },
               }}
             >
-              {() => <SignUpScreen setToken={setToken} setId={setId} />}
+              {() => <SignUpScreen setToken={setToken} />}
             </Stack.Screen>
           </>
         ) : (
@@ -154,9 +141,7 @@ export default function App() {
                     {() => (
                       <ProfileScreen
                         userToken={userToken}
-                        userId={userId}
                         setToken={setToken}
-                        setId={setId}
                       />
                     )}
                   </Tab.Screen>
