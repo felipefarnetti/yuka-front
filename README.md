@@ -6,6 +6,7 @@
 ### This mobile app Yuka replica works on ios and Android systems - how it works:
 #### After opening the application you arrive on the splash screen and sliding to the left you arrive at the login screen and if you have no account you can go to the signup page. Once connected, you have 3 bottom tabs - Favorites, Camera and My account.
 
+https://user-images.githubusercontent.com/128170725/242290768-fe3d78c6-e05d-4156-a9ed-4c1a95ad003c.jpeg
 
 
 
