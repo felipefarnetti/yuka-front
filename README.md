@@ -36,4 +36,8 @@
 
 1. Packages utilisés/Used packages: REACT, REACT NATIVE, REACT-NAVIGATION, EXPO, EXPO-AV, EXPO-BARCODE-SCANNER, AXIOS
 
-### Ce projet utilise les notions que nous avons appris en cours @ Le Reacteur
+#### Pour lancer: yarn / yarn start
+
+### Ce projet utilise les notions que nous avons appris en cours @ Le Reacteur www.lereacteur.io
+
+### Fait par felipefarnetti@gmail.com
